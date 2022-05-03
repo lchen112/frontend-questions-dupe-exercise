@@ -34,21 +34,23 @@ function App() {
   };
 
   return (
-    <div className="App">
+    <span className="App">
       <h1>Interview Questions</h1>
-      <div className="category">
-        <h2>HTML</h2>
-        {renderQuestions("HTML")}
+      <div id="wrapper">
+        <div className="category">
+          <h2>HTML</h2>
+          {renderQuestions("HTML")}
+        </div>
+        <div className="category">
+          <h2>CSS</h2>
+          {renderQuestions("CSS")}
+        </div>
+        <div className="category">
+          <h2>Javascript</h2>
+          {renderQuestions("JavaScript")}
+        </div>
       </div>
-      <div className="category">
-        <h2>CSS</h2>
-        {renderQuestions("CSS")}
-      </div>
-      <div className="category">
-        <h2>Javascript</h2>
-        {renderQuestions("JavaScript")}
-      </div>
-    </div>
+    </span>
   );
 }
 

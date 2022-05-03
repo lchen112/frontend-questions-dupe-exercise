@@ -1,0 +1,28 @@
+.question-box {
+  display: flex;
+  align-items: center;
+  box-shadow: rgb(0 0 0 / 20%) 0px 1px 2px 0px;
+  background-color: white;
+  border-right: 25px solid #11967e;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.status {
+  height: 20px;
+  width: 20px;
+  border: 1px solid rgba(103, 114, 229, 0.3);
+  margin-right: 8px;
+  margin-left: 8px;
+  border-radius: 50%;
+}
+
+.question {
+  color: #11967e;
+  cursor: pointer;
+  transition: color 1s;
+}
+
+.question:hover {
+  color: black;
+}
