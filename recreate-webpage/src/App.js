@@ -23,7 +23,6 @@ function App() {
   }, []);
 
   const renderQuestions = (type) => {
-    console.log(questions);
     return (
       questions &&
       questions.length > 0 &&
